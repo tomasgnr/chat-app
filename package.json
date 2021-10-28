@@ -1,0 +1,28 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Proof of Concept (PoC) - Socket.io realtime chat app with multiple chat rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasgnr/chat-app.git"
+  },
+  "author": "Tomas Mariani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomasgnr/chat-app/issues"
+  },
+  "homepage": "https://github.com/tomasgnr/chat-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
